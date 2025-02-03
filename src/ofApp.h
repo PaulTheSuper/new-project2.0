@@ -10,6 +10,8 @@ class ofApp : public ofBaseApp{
 		void update();
 		void draw();
 		void bubbleSort();
+		int partition(std::vector<int>& arr, int low, int high);
+		void quickSort(std::vector<int>& arr, int low, int high);
 		void insertionSort();
 
 		void keyPressed(int key);

@@ -29,7 +29,7 @@ void ofApp::update() {
 
 //--------------------------------------------------------------
 void ofApp::draw() {
-
+	///Most sort methods were made using the class notes
 	ofDrawBitmapString("Press keys to control:", 20, 30);
 	ofDrawBitmapString("b - Bubble Sort", 20, 50);
 	ofDrawBitmapString("i - Insertion Sort", 20, 70);
